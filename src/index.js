@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { ThemeProvider } from 'styled-components';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Normalize } from 'styled-normalize';
@@ -8,9 +9,11 @@ import { GlobalStyle } from './styled';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Normalize />
-    <GlobalStyle />
-    <App />
+    <ThemeProvider>
+      <Normalize />
+      <GlobalStyle />
+      <App />
+    </ThemeProvider>
   </React.StrictMode>
 );
 
