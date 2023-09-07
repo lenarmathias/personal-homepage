@@ -9,6 +9,8 @@ export const lightMode = {
         linkButtonText: "#FFFFFF",
         primaryBlue: "#0366D6",
         blueHoverAndFocus: "#8CC2FF",
+        switchFrameFill: "#E5E5E5",
+        switchFrameStroke: "#D1D5DA",
     },
 
     breakpoints,
@@ -23,6 +25,8 @@ export const darkMode = {
         linkButtonText: "#FFFFFF",
         primaryBlue: "#2188FF",
         blueHoverAndFocus: "#6D93BE",
+        switchFrameFill: "#363636",
+        switchFrameStroke: "#FFFFFF",
     },
 
     breakpoints,
