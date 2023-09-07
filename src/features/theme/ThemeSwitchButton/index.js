@@ -1,14 +1,10 @@
 import { useDispatch, useSelector } from "react-redux";
 import { selectDarkModeEnabled, changeThemeMode } from "../themeSlice";
-import { ReactComponent as SwitchFrame } from "../../../images/elements/themeSwitchButton/switchFrame.svg";
-import { ThemeSwitchButtonWrapper, TextSpanWrapper } from "./styled"
+import { ThemeSwitchButtonWrapper, TextSpanWrapper, DynamicSwitchFrame } from "./styled"
 import { SmallBoldText } from "../../../common/textStyles/styled";
 
 const ThemeSwitchButton = () => {
     const dispatch = useDispatch();
-
-    const fill = "red";
-    const stroke = "blue"
 
     const darkModeEnabled = useSelector(selectDarkModeEnabled);
 
@@ -19,13 +15,7 @@ const ThemeSwitchButton = () => {
                     Dark mode {darkModeEnabled ? "on" : "off"}
                 </SmallBoldText>
             </TextSpanWrapper>
-            <SwitchFrame onClick={() => dispatch(changeThemeMode())}>
-                <path
-                    id="Vector_2"
-                    fill={fill}
-                    stroke={stroke}
-                />
-            </SwitchFrame>
+            <DynamicSwitchFrame onClick={() => dispatch(changeThemeMode())} />
         </ThemeSwitchButtonWrapper>
     )
 };
