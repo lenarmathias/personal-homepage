@@ -10,7 +10,8 @@ export const lightMode = {
         primaryBlue: "#0366D6",
         blueHoverAndFocus: "#8CC2FF",
         switchFrameFill: "#E5E5E5",
-        switchFrameStroke: "#D1D5DA",
+        switchFrameStroke: "#6E7E91",
+        themeIcon: "#FFFFFF",
     },
 
     breakpoints,
@@ -27,6 +28,7 @@ export const darkMode = {
         blueHoverAndFocus: "#6D93BE",
         switchFrameFill: "#363636",
         switchFrameStroke: "#FFFFFF",
+        themeIcon: "#252525",
     },
 
     breakpoints,

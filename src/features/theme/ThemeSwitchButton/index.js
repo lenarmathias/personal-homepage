@@ -1,6 +1,13 @@
 import { useDispatch, useSelector } from "react-redux";
 import { selectDarkModeEnabled, changeThemeMode } from "../themeSlice";
-import { ThemeSwitchButtonWrapper, TextSpanWrapper, DynamicSwitchFrame } from "./styled"
+import {
+    ThemeSwitchButtonWrapper,
+    TextSpanWrapper,
+    DynamicSwitchWrapper,
+    DynamicSwitchFrame,
+    DynamicSwitchToggle,
+    DynamicThemeIcon
+} from "./styled"
 import { SmallBoldText } from "../../../common/textStyles/styled";
 
 const ThemeSwitchButton = () => {
@@ -15,7 +22,13 @@ const ThemeSwitchButton = () => {
                     Dark mode {darkModeEnabled ? "on" : "off"}
                 </SmallBoldText>
             </TextSpanWrapper>
-            <DynamicSwitchFrame onClick={() => dispatch(changeThemeMode())} />
+            <DynamicSwitchWrapper onClick={() =>
+                dispatch(changeThemeMode())
+            }>
+                <DynamicSwitchFrame />
+                <DynamicSwitchToggle togglemove={darkModeEnabled ? 1 : 0} />
+                <DynamicThemeIcon iconmove={darkModeEnabled ? 1 : 0} />
+            </DynamicSwitchWrapper>
         </ThemeSwitchButtonWrapper>
     )
 };
