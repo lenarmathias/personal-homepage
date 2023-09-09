@@ -4,8 +4,8 @@ import ThemeSwitchButton from "./features/theme/ThemeSwitchButton";
 function App() {
   return (
     <>
-      <AboutMe />
       <ThemeSwitchButton />
+      <AboutMe />
     </>
   );
 }
