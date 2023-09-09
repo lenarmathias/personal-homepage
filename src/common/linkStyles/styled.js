@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { ReactComponent as MailIcon } from "../../images/icons/message.svg";
 
 const linkButtonShadow = ({ theme }) => theme.colors.blueHoverAndFocus;
 
@@ -19,6 +20,12 @@ export const LinkButton = styled.a`
                     -2px 2px 0px 0px ${linkButtonShadow}, 
                     2px -2px 0px 0px ${linkButtonShadow};
     }
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+        width: 138px;
+        height: 46px;
+        gap: 12px;
+    }
 `;
 
 export const LinkButtonText = styled.span`
@@ -29,4 +36,15 @@ export const LinkButtonText = styled.span`
     font-weight: 600;
     line-height: normal;
     letter-spacing: 1.003px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+        font-size: 18px;
+        letter-spacing: 0.9px;
+    }
+`;
+
+export const StyledMailIcon = styled(MailIcon)`
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+        width: 20px;
+    }
 `;

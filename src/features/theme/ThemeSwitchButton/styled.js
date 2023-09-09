@@ -13,13 +13,18 @@ export const ThemeSwitchButtonWrapper = styled.div`
     grid-template-columns: max-content max-content;
     grid-gap: 12px;
     align-items: center;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.narrow}) {
+        width: 48px;
+        grid-template-columns: max-content;
+    }
 `;
 
 export const TextSpanWrapper = styled.span`
     margin: 0;
     width: 100px;
 
-    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.narrow}) {
         display: none;
     }
 `;

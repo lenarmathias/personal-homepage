@@ -5,6 +5,13 @@ export const SmallBoldText = styled.p`
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
+    line-height: 130%;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+        ${({ aboutMe }) => aboutMe && css`
+            margin: 12px 0 8px;
+        `}
+    }
 `;
 
 export const PrimaryText = styled.p`
@@ -19,4 +26,12 @@ export const PrimaryText = styled.p`
         font-size: 20px;
         letter-spacing: 1px;
     `}
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+        ${({ aboutMe }) => aboutMe && css`
+            margin: 16px 0 24px;
+            font-size: 17px;
+            letter-spacing: 0.85px;
+        `}
+    }
 `;

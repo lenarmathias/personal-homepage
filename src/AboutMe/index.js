@@ -1,23 +1,22 @@
 import { AboutMeWrapper, ProfilePicture, AboutMeTextWrapper } from "./styled";
 import { SmallBoldText, PrimaryText } from "../common/textStyles/styled";
-import { LinkButton, LinkButtonText } from "../common/linkStyles/styled";
-import { ReactComponent as MailIcon } from "../images/icons/message.svg";
+import { LinkButton, LinkButtonText, StyledMailIcon } from "../common/linkStyles/styled";
 
 const AboutMe = () => (
     <AboutMeWrapper>
         <ProfilePicture />
         <AboutMeTextWrapper>
-            <SmallBoldText>
+            <SmallBoldText aboutMe>
                 This is
             </SmallBoldText>
             <h1>
                 Maciej Lenartowicz
             </h1>
-            <PrimaryText>
+            <PrimaryText aboutMe>
                 👨🏻‍💻 I’m a passionate Frontend Developer in love with React, currently looking for new job opportunities.
             </PrimaryText>
             <LinkButton>
-                <MailIcon />
+                <StyledMailIcon />
                 <LinkButtonText>
                     Hire Me
                 </LinkButtonText>
