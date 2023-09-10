@@ -65,7 +65,7 @@ export const DynamicSwitchToggle = styled(SwitchToggle)`
 export const DynamicThemeIcon = styled(ThemeIcon)`
     position: absolute;
     top: 5.5px;
-    left: 5.5px;
+    left: 6px;
 
     path {
         fill: ${({ theme }) => theme.colors.themeIcon};
@@ -74,6 +74,6 @@ export const DynamicThemeIcon = styled(ThemeIcon)`
     ${({ iconmove }) => iconmove && css`
         top: 5.5px;
         left: auto;
-        right: 5.5px;
+        right: 6px;
     `}
 `;
