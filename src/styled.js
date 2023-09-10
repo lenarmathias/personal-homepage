@@ -43,6 +43,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     h2 {
+        margin: 0 0 15px;
         font-size: 30px;
         letter-spacing: 1.5px;
     }

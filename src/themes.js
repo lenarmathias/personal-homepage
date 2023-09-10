@@ -12,6 +12,10 @@ export const lightMode = {
         switchFrameFill: "#E5E5E5",
         switchFrameStroke: "#6E7E91",
         themeIcon: "#FFFFFF",
+        tileBackground: "#FFFFFF",
+        tileShadowPrimary: "#090a3308",
+        tileShadowSecondary: "#090a3305",
+        divider: "#D1D5DA4D",
     },
 
     breakpoints,
@@ -29,6 +33,9 @@ export const darkMode = {
         switchFrameFill: "#363636",
         switchFrameStroke: "#FFFFFF",
         themeIcon: "#252525",
+        tileBackground: "#363636B8",
+        divider: "#E5E5E5",
+        ...lightMode,
     },
 
     breakpoints,
