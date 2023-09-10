@@ -31,6 +31,7 @@ export const PrimaryText = styled.p`
         ${({ aboutMe }) => aboutMe && css`
             margin: 16px 0 24px;
             font-size: 17px;
+            font-size: 17px;
             letter-spacing: 0.85px;
         `}
     }
