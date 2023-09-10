@@ -26,8 +26,18 @@ const ThemeSwitchButton = () => {
                 dispatch(changeThemeMode())
             }>
                 <DynamicSwitchFrame />
-                <DynamicSwitchToggle togglemove={darkModeEnabled ? 1 : 0} />
-                <DynamicThemeIcon iconmove={darkModeEnabled ? 1 : 0} />
+                <DynamicSwitchToggle
+                    togglemove={
+                        darkModeEnabled
+                            ? 1
+                            : 0
+                    } />
+                <DynamicThemeIcon
+                    iconmove={
+                        darkModeEnabled
+                            ? 1
+                            : 0
+                    } />
             </DynamicSwitchWrapper>
         </ThemeSwitchButtonWrapper>
     )

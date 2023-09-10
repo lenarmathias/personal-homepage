@@ -18,7 +18,12 @@ const RootComponent = () => {
 
   return (
     <React.StrictMode>
-      <ThemeProvider theme={darkModeEnabled ? darkMode : lightMode}>
+      <ThemeProvider
+        theme={
+          darkModeEnabled
+            ? darkMode
+            : lightMode
+        }>
         <Normalize />
         <GlobalStyle />
         <App />
