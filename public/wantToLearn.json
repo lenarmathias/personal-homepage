@@ -1,0 +1,28 @@
+{
+    "wantToLearn": [
+        {
+            "id": 1,
+            "content": "React Context"
+        },
+        {
+            "id": 2,
+            "content": "Node.js"
+        },
+        {
+            "id": 3,
+            "content": "Cypress"
+        },
+        {
+            "id": 4,
+            "content": "Unit testing"
+        },
+        {
+            "id": 5,
+            "content": "TypeScript"
+        },
+        {
+            "id": 6,
+            "content": "JS classes"
+        }
+    ]
+}

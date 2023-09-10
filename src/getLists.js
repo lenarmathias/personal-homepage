@@ -7,3 +7,13 @@ export const getMySkills = async () => {
 
     return await mySkills.json();
 };
+
+export const getWantToLearn = async () => {
+    const wantToLearn = await fetch("/wantToLearn.json");
+
+    if (!wantToLearn.ok) {
+        new Error(wantToLearn.statusText);
+    }
+
+    return await wantToLearn.json();
+};
