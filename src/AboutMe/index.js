@@ -12,7 +12,7 @@ const AboutMe = () => (
             <h1>
                 Maciej Lenartowicz
             </h1>
-            <PrimaryText aboutMe>
+            <PrimaryText>
                 👨🏻‍💻 I’m a passionate Frontend Developer in love with React, currently looking for new job opportunities.
             </PrimaryText>
             <LinkButton>

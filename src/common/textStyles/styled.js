@@ -16,15 +16,20 @@ export const SmallBoldText = styled.p`
 
 export const PrimaryText = styled.p`
     color: ${({ theme }) => theme.colors.primaryTextColor};
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
-    letter-spacing: 0.9px;
+    letter-spacing: 1px;
 
-    ${({ aboutMe }) => aboutMe && css`
-        font-size: 20px;
-        letter-spacing: 1px;
+    ${({ portfolio }) => portfolio && css`
+        color: ${({ theme }) => theme.colors.secondaryTextColor};
+        margin: 0 0 24px;
+    `}
+
+    ${({ smaller }) => smaller && css`
+        font-size: 18px;
+        letter-spacing: 0.9px;
     `}
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
