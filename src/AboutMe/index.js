@@ -1,5 +1,5 @@
 import { AboutMeWrapper, ProfilePicture, AboutMeTextWrapper } from "./styled";
-import { SmallBoldText, PrimaryText } from "../common/textStyles/styled";
+import { MainHeadingText, SmallBoldText, PrimaryText } from "../common/textStyles/styled";
 import { LinkButton, LinkButtonText, StyledMailIcon } from "../common/linkStyles/styled";
 
 const AboutMe = () => (
@@ -9,9 +9,9 @@ const AboutMe = () => (
             <SmallBoldText aboutMe>
                 This is
             </SmallBoldText>
-            <h1>
+            <MainHeadingText as="h1">
                 Maciej Lenartowicz
-            </h1>
+            </MainHeadingText>
             <PrimaryText>
                 👨🏻‍💻 I’m a passionate Frontend Developer in love with React, currently looking for new job opportunities.
             </PrimaryText>

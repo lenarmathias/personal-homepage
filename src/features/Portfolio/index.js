@@ -1,13 +1,13 @@
 import { PortfolioContainer, PortfolioWrapper, GitHubPortfolioIcon } from "./styled";
-import { PrimaryText } from "../../common/textStyles/styled";
+import { HeadingText, PrimaryText } from "../../common/textStyles/styled";
 
 const Portfolio = () => (
     <PortfolioContainer>
         <PortfolioWrapper>
             <GitHubPortfolioIcon />
-            <h2>
+            <HeadingText portfolioHeading>
                 Portfolio
-            </h2>
+            </HeadingText>
             <PrimaryText portfolio>
                 My recent projects
             </PrimaryText>

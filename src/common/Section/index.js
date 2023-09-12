@@ -1,11 +1,12 @@
 import { SectionContainer, HeadingWrapper } from "./styled";
+import { HeadingText } from "../textStyles/styled";
 
 const Section = ({ title, content }) => (
     <SectionContainer>
         <HeadingWrapper>
-            <h2>
+            <HeadingText>
                 {title}
-            </h2>
+            </HeadingText>
         </HeadingWrapper>
         {content}
     </SectionContainer>

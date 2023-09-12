@@ -22,29 +22,4 @@ export const GlobalStyle = createGlobalStyle`
             margin: 21px 17px;
         }
     }
-
-    h1 {
-        margin-top: 12px;
-        margin-bottom: 35;
-        font-size: 38px;
-        letter-spacing: 1.9px;
-
-        @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
-            font-size: 22px;
-            letter-spacing: 1.1px;
-        }
-    }
-
-    h1, h2 {
-        font-weight: 900;
-        line-height: normal;
-        font-style: normal;
-        color: ${({ theme }) => theme.colors.secondaryTextColor};
-    }
-
-    h2 {
-        margin: 0 0 15px;
-        font-size: 30px;
-        letter-spacing: 1.5px;
-    }
 `;

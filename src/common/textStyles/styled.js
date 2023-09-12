@@ -1,5 +1,30 @@
 import styled, { css } from "styled-components";
 
+export const HeadingText = styled.h2`
+    color: ${({ theme }) => theme.colors.secondaryTextColor};
+    margin: 0 0 15px;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: 1.5px;
+
+    ${({ portfolioHeading }) => portfolioHeading && css`
+        margin-bottom: 8px;
+    `}
+`;
+
+export const MainHeadingText = styled(HeadingText)`
+    margin-top: 12px;
+    margin-bottom: 35;
+    font-size: 38px;
+    letter-spacing: 1.9px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+        font-size: 22px;
+        letter-spacing: 1.1px;
+    }
+`;
+
 export const SmallBoldText = styled.p`
     color: ${({ theme }) => theme.colors.primaryTextColor};
     font-size: 12px;
