@@ -12,6 +12,7 @@ export const LinkButton = styled.a`
     border-radius: 4px;
     border: ${({ theme }) => theme.colors.linkButtonBorder};
     background-color: ${({ theme }) => theme.colors.primaryBlue};
+    transition: 0.5s;
 
     &:hover,
     &:active {
