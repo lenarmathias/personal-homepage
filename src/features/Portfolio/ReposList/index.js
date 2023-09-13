@@ -11,8 +11,6 @@ import { ListText } from "../../../common/textStyles/styled";
 const ReposList = () => {
     const { apiObject: repos } = useGithubReposApi();
 
-    console.log(repos);
-
     return (
         <ReposListContainer>
             {repos.map(repo => (
