@@ -1,5 +1,5 @@
 export const getMySkills = async () => {
-    const mySkills = await fetch("/mySkills.json");
+    const mySkills = await fetch("/personal-homepage/mySkills.json");
 
     if (!mySkills.ok) {
         new Error(mySkills.statusText);
@@ -9,7 +9,7 @@ export const getMySkills = async () => {
 };
 
 export const getWantToLearn = async () => {
-    const wantToLearn = await fetch("/wantToLearn.json");
+    const wantToLearn = await fetch("/personal-homepage/wantToLearn.json");
 
     if (!wantToLearn.ok) {
         new Error(wantToLearn.statusText);
