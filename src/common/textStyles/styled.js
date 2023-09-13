@@ -32,9 +32,17 @@ export const SmallBoldText = styled.p`
     text-transform: uppercase;
     line-height: 130%;
 
+    ${({ footer }) => footer && css`
+        margin: 0 0 24px;
+    `}
+
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
         ${({ aboutMe }) => aboutMe && css`
             margin: 12px 0 8px;
+        `}
+
+        ${({ footer }) => footer && css`
+            margin: 0 0 12px;
         `}
     }
 `;
@@ -71,7 +79,13 @@ export const ListText = styled.span`
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
+    line-height: 140%;
     letter-spacing: 0.9px;
+
+    ${({ footer }) => footer && css`
+        color: ${({ theme }) => theme.colors.secondaryTextColor};
+        margin-top: 24px;
+    `}
 
     ${({ demo }) => demo && css`
         grid-area: demo;
@@ -85,5 +99,9 @@ export const ListText = styled.span`
         font-size: 14px;
         line-height: normal;
         letter-spacing: 0.7px;
+
+        ${({ footer }) => footer && css`
+            margin-top: 12px;
+        `}
     }
 `;

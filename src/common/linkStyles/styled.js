@@ -49,3 +49,22 @@ export const StyledMailIcon = styled(MailIcon)`
         width: 20px;
     }
 `;
+
+export const BigLinkAdress = styled.a`
+    color: ${({ theme }) => theme.colors.secondaryTextColor};
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 1.6px;
+    text-decoration: none;
+    transition: 0.5s;
+
+    &:hover {
+        color: ${({ theme }) => theme.colors.primaryBlue};
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+        font-size: 18px;
+        letter-spacing: 0.9px;
+    }
+`;

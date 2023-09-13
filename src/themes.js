@@ -19,7 +19,7 @@ export const lightMode = {
         repoTitle: "#0366D6",
         repoTileHover: "#0366D633",
         repoLinkBorder: "rgba(3, 102, 214, 0.2)",
-        repoLinkBorderHover: "rgba(3, 102, 214, 0.8)"
+        repoLinkBorderHover: "rgba(3, 102, 214, 0.8)",
     },
 
     breakpoints,

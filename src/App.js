@@ -4,6 +4,7 @@ import Section from "./common/Section";
 import MySkillsList from "./features/lists/MySkillsList";
 import WantToLearnList from "./features/lists/WantToLearnList";
 import Portfolio from "./features/Portfolio";
+import Footer from "./Footer/index"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         content={<WantToLearnList />}
       />
       <Portfolio />
+      <Footer />
     </>
   );
 }
