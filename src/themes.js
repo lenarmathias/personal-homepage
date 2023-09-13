@@ -16,6 +16,10 @@ export const lightMode = {
         tileShadowPrimary: "#090a3308",
         tileShadowSecondary: "#090a3305",
         divider: "#D1D5DA4D",
+        repoTitle: "#0366D6",
+        repoTileHover: "#0366D633",
+        repoLinkBorder: "rgba(3, 102, 214, 0.2)",
+        repoLinkBorderHover: "rgba(3, 102, 214, 0.8)"
     },
 
     breakpoints,
@@ -35,6 +39,10 @@ export const darkMode = {
         themeIcon: "#252525",
         tileBackground: "#363636B8",
         divider: "#E5E5E5",
+        repoTitle: "#FFFFFF",
+        repoTileHover: "#0366D680",
+        repoLinkBorder: "rgba(33, 136, 255, 0.4)",
+        repoLinkBorderHover: "rgba(33, 136, 255, 0.8)",
         ...lightMode,
     },
 

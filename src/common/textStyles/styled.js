@@ -49,7 +49,6 @@ export const PrimaryText = styled.p`
 
     ${({ portfolio }) => portfolio && css`
         color: ${({ theme }) => theme.colors.secondaryTextColor};
-        margin: 0 0 24px;
     `}
 
     ${({ smaller }) => smaller && css`
@@ -64,5 +63,27 @@ export const PrimaryText = styled.p`
             font-size: 17px;
             letter-spacing: 0.85px;
         `}
+    }
+`;
+
+export const ListText = styled.span`
+    color: ${({ theme }) => theme.colors.primaryTextColor};
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.9px;
+
+    ${({ demo }) => demo && css`
+        grid-area: demo;
+    `}
+
+    ${({ code }) => code && css`
+        grid-area: code;
+    `}
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+        font-size: 14px;
+        line-height: normal;
+        letter-spacing: 0.7px;
     }
 `;

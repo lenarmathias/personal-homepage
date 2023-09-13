@@ -8,6 +8,7 @@ export const PortfolioContainer = styled.section`
 export const PortfolioWrapper = styled.div`
     display: grid;
     place-items: center;
+    margin-bottom: 24px;
 `;
 
 export const GitHubPortfolioIcon = styled(GitHubIcon)`

@@ -21,18 +21,3 @@ export const List = styled.ul`
 export const ListItem = styled.li`
     margin-left: 16px;
 `;
-
-export const ListText = styled.span`
-    color: ${({ theme }) => theme.colors.primaryTextColor};
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 0.9px;
-
-
-    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
-        font-size: 14px;
-        line-height: normal;
-        letter-spacing: 0.7px;
-    }
-`;

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { getWantToLearn } from "../../../getLists";
-import { List, ListItem, ListText } from "../styled";
+import { List, ListItem } from "../styled";
+import { ListText } from "../../../common/textStyles/styled";
 
 const WantToLearnList = () => {
     const [wantToLearn, setWantToLearn] = useState([]);

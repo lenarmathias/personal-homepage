@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { getMySkills } from "../../../getLists";
-import { List, ListItem, ListText } from "../styled";
+import { List, ListItem } from "../styled";
+import { ListText } from "../../../common/textStyles/styled";
 
 const MySkillsList = () => {
     const [mySkills, setMySkills] = useState([]);
