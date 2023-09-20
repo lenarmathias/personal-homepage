@@ -33,7 +33,11 @@ const Footer = () => (
             >
                 <GitHubIconLink />
             </a>
-            <LinkedInIconLink />
+            <a
+                href="https://www.linkedin.com/in/maciej-lenartowicz-969623292/"
+            >
+                <LinkedInIconLink />
+            </a>
         </IconsContainer>
     </FooterContainer>
 );
