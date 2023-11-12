@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const apiAdress = 'https://api.github.com/users/lenarmathias/repos'
+const apiAddress = 'https://api.github.com/users/lenarmathias/repos'
 
 export const useGithubReposApi = () => {
     const [apiObject, setApiObject] = useState([]);
@@ -11,7 +11,7 @@ export const useGithubReposApi = () => {
     useEffect(() => {
         const callingApi = async () => {
             try {
-                const response = await axios.get(apiAdress);
+                const response = await axios.get(apiAddress);
                 setApiObject(response.data);
                 setLoading(false);
             } catch (error) {
