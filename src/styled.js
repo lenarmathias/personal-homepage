@@ -22,4 +22,8 @@ export const GlobalStyle = createGlobalStyle`
             margin: 21px 17px;
         }
     }
+
+    a {
+        -webkit-tap-highlight-color: transparent;
+    }
 `;

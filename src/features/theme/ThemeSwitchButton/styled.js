@@ -35,6 +35,7 @@ export const DynamicSwitchWrapper = styled.div`
     position: relative;
     display: inline-block;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 `;
 
 export const DynamicSwitchFrame = styled(SwitchFrame)`
