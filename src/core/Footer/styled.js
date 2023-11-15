@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { ReactComponent as GitHubIcon } from "../images/icons/githubIcon.svg";
-import { ReactComponent as LinkedInIcon } from "../images/icons/linkedinIcon.svg";
+import { ReactComponent as GitHubIcon } from "../../images/icons/githubIcon.svg";
+import { ReactComponent as LinkedInIcon } from "../../images/icons/linkedinIcon.svg";
 
 export const FooterContainer = styled.div`
     width: 691px;

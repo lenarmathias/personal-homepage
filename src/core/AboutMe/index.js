@@ -1,6 +1,6 @@
 import { AboutMeWrapper, ProfilePicture, AboutMeTextWrapper } from "./styled";
-import { MainHeadingText, SmallBoldText, PrimaryText } from "../common/textStyles/styled";
-import { LinkButton, LinkButtonText, StyledMailIcon } from "../common/linkStyles/styled";
+import { MainHeadingText, SmallBoldText, PrimaryText } from "../../common/textStyles/styled";
+import { LinkButton, LinkButtonText, StyledMailIcon } from "../../common/linkStyles/styled";
 
 const AboutMe = () => (
     <AboutMeWrapper>

@@ -4,8 +4,8 @@ import {
     GitHubIconLink,
     LinkedInIconLink
 } from "./styled";
-import { SmallBoldText, ListText } from "../common/textStyles/styled";
-import { BigLinkAdress } from "../common/linkStyles/styled";
+import { SmallBoldText, ListText } from "../../common/textStyles/styled";
+import { BigLinkAdress } from "../../common/linkStyles/styled";
 
 const Footer = () => (
     <FooterContainer>
