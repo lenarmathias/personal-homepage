@@ -2,7 +2,7 @@ import { useSkillList } from "./useSkillList";
 import { List, ListItem } from "./styled";
 import { ListText } from "../../common/textStyles/styled";
 
-const MySkillsList = ({ toLearn }) => {
+const SkillList = ({ toLearn }) => {
     const { mySkillset, wantToLearn } = useSkillList();
 
     return (
@@ -18,4 +18,4 @@ const MySkillsList = ({ toLearn }) => {
     )
 };
 
-export default MySkillsList;
+export default SkillList;
