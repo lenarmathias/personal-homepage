@@ -1,8 +1,7 @@
-import AboutMe from "./AboutMe";
 import ThemeSwitchButton from "./features/theme/ThemeSwitchButton";
+import AboutMe from "./AboutMe";
 import Section from "./common/Section";
-import MySkillsList from "./features/lists/MySkillsList";
-import WantToLearnList from "./features/lists/WantToLearnList";
+import SkillList from "./features/SkillList"
 import Portfolio from "./features/Portfolio";
 import Footer from "./Footer/index"
 
@@ -13,11 +12,11 @@ function App() {
       <AboutMe />
       <Section
         title="My skillset includes"
-        content={<MySkillsList />}
+        content={<SkillList />}
       />
       <Section
         title="What I want to learn next"
-        content={<WantToLearnList />}
+        content={<SkillList toLearn />}
       />
       <Portfolio />
       <Footer />
