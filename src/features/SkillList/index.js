@@ -7,7 +7,11 @@ const SkillList = ({ toLearn }) => {
 
     return (
         <List>
-            {(toLearn ? wantToLearn : mySkillset).map(skill => (
+            {(
+                toLearn
+                    ? wantToLearn
+                    : mySkillset
+            ).map(skill => (
                 <ListItem key={skill.id}>
                     <ListText>
                         {skill.content}
