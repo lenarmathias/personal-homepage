@@ -87,6 +87,14 @@
         {
             "id": 22,
             "content": "Git"
+        },
+        {
+            "id": 23,
+            "content": "TypeScript"
+        },
+        {
+            "id": 24,
+            "content": "TanStack Query"
         }
     ],
     "wantToLearn": [
@@ -108,11 +116,11 @@
         },
         {
             "id": 5,
-            "content": "TypeScript"
+            "content": "JS classes"
         },
         {
             "id": 6,
-            "content": "JS classes"
+            "content": "React Native"
         }
     ]
 }
