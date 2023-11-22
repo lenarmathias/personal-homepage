@@ -121,6 +121,10 @@
         {
             "id": 6,
             "content": "React Native"
+        },
+        {
+            "id": 7,
+            "content": "Tailwind CSS"
         }
     ]
 }
