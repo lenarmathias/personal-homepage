@@ -87,6 +87,44 @@
         {
             "id": 22,
             "content": "Git"
+        },
+        {
+            "id": 23,
+            "content": "TypeScript"
+        },
+        {
+            "id": 24,
+            "content": "TanStack Query"
+        }
+    ],
+    "wantToLearn": [
+        {
+            "id": 1,
+            "content": "React Context"
+        },
+        {
+            "id": 2,
+            "content": "Node.js"
+        },
+        {
+            "id": 3,
+            "content": "Cypress"
+        },
+        {
+            "id": 4,
+            "content": "Unit testing"
+        },
+        {
+            "id": 5,
+            "content": "JS classes"
+        },
+        {
+            "id": 6,
+            "content": "React Native"
+        },
+        {
+            "id": 7,
+            "content": "Tailwind CSS"
         }
     ]
 }
