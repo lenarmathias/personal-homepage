@@ -25,8 +25,8 @@ export const RepoTile = styled.div`
     transition: 0.5s;
     border: 6px solid ${({ theme }) => theme.colors.linkButtonBorder};
     background-color: ${({ theme }) => theme.colors.tileBackground};
-    box-shadow: 0px 16px 58px 0px ${tileShadowPrimary}, 
-                0px -2px 50px 0px ${tileShadowSecondary};
+    box-shadow: 0 16px 58px 0 ${tileShadowPrimary}, 
+                0 -2px 50px 0 ${tileShadowSecondary};
 
     &:hover {
         border-color: ${({ theme }) => theme.colors.repoTileHover};

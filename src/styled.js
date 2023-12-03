@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
     }
     
     body {
-        margin: 119px auto 109px;
+        margin: 119px auto 109px !important;
         width: 1216px;
         max-width: 90%;
         font-family: 'Inter', sans-serif;

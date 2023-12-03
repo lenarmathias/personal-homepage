@@ -13,6 +13,7 @@ function App() {
       <Section
         title="My skillset includes"
         content={<SkillList />}
+        className="first"
       />
       <Section
         title="What I want to learn next"

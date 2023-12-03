@@ -15,11 +15,12 @@ export const HeadingText = styled.h2`
 
 export const MainHeadingText = styled(HeadingText)`
     margin-top: 12px;
-    margin-bottom: 35;
+    margin-bottom: 35px;
     font-size: 38px;
     letter-spacing: 1.9px;
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+        margin-bottom: 16px;
         font-size: 22px;
         letter-spacing: 1.1px;
     }
@@ -67,7 +68,6 @@ export const PrimaryText = styled.p`
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
         ${({ aboutMe }) => aboutMe && css`
             margin: 16px 0 24px;
-            font-size: 17px;
             font-size: 17px;
             letter-spacing: 0.85px;
         `}

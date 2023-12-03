@@ -5,18 +5,18 @@ import {
     LinkedInIconLink
 } from "./styled";
 import { SmallBoldText, ListText } from "../../common/textStyles/styled";
-import { BigLinkAdress } from "../../common/linkStyles/styled";
+import { BigLinkAddress } from "../../common/linkStyles/styled";
 
 const Footer = () => (
     <FooterContainer>
         <SmallBoldText footer>
             Let’s talk!
         </SmallBoldText>
-        <BigLinkAdress
+        <BigLinkAddress
             href="mailto:lenarmathias@gmail.com"
         >
             lenarmathias@gmail.com
-        </BigLinkAdress>
+        </BigLinkAddress>
         <ListText
             footer
             as="p"
@@ -25,7 +25,7 @@ const Footer = () => (
             If you have a website, dashboard or
             mobile app in mind and need some help
             to make your ideas come to life,
-            feel free to conatct me!
+            feel free to contact me!
         </ListText>
         <IconsContainer>
             <a

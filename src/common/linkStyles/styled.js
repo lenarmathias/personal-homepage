@@ -50,7 +50,7 @@ export const StyledMailIcon = styled(MailIcon)`
     }
 `;
 
-export const BigLinkAdress = styled.a`
+export const BigLinkAddress = styled.a`
     color: ${({ theme }) => theme.colors.secondaryTextColor};
     font-size: 32px;
     font-style: normal;
