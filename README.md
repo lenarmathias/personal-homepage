@@ -6,6 +6,16 @@ This project is my personal homepage, containing my contact information, a list 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+---
+
+## Demo
+
+You can find the live version of my To-Do List project on GitHub Pages here:
+
+https://lenarmathias.github.io/personal-homepage/
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:
