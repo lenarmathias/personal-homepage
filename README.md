@@ -1,5 +1,9 @@
 # Maciej Lenartowicz Personal Homepage
 
+## Overview
+
+This project is my personal homepage, containing my contact information, a list of known and to-learn technologies, and a portfolio of GitHub repositories. The portfolio projects are fetched via the GitHub API. Additionally, the site offers a dynamic user experience with both light and dark modes, allowing visitors to tailor their viewing experience to their preferences.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
