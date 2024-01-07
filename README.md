@@ -16,6 +16,25 @@ https://lenarmathias.github.io/personal-homepage/
 
 ---
 
+## Tools & Technologies
+
+- **Visual Studio Code**: A popular text editor that was used to write and edit the application's code.
+- **WebStorm**: A widely-used code editor for writing and editing application code, offering a range of development tools and features.
+- **Google Fonts**: A free online library of fonts that was used to enhance the application's typography and overall design.
+- **Git/GitHub**: A version control system and online repository that was used to track changes to the application's code.
+- **HTML**: The application's user interface is built using HTML, which allows for the creation of structured, well-formatted content.
+- **CSS**: The application's styling is done using CSS, which allows for the creation of visually appealing and responsive designs.
+- **JavaScript**: The application's logic is written in JavaScript, which enables dynamic and interactive functionality, such as real-time updates and user input validation.
+- **React.js**: The application uses React.js, a popular JavaScript library for building interactive user interfaces with efficiency and code reusability.
+- **Styled Components**: [![style: styled-components](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e)](https://github.com/styled-components/styled-components) Styled Components is a popular library for styling React components with a CSS-in-JS approach. It allows you to write CSS code directly within your JavaScript components, making it easier to manage and reuse styles in a component-based architecture.
+- **Axios**: [![library: axios](https://img.shields.io/badge/library-%F0%9F%94%8D%20axios-6A5ACD.svg)](https://github.com/axios/axios) Axios is a popular JavaScript library used for making HTTP requests from the browser. It was used in this application to fetch data from external sources.
+- **Redux**: [![library: Redux](https://img.shields.io/badge/library-%F0%9F%8C%8F%20Redux-purple.svg)](https://redux.js.org/) Redux is a state management library for JavaScript applications. It provides a predictable and centralized way to manage the application's state, making it easier to handle complex data flows and maintain a clear separation of concerns in your application.
+- **React Redux**: [![library: React Redux](https://img.shields.io/badge/library-%F0%9F%8C%8F%20React%20Redux-purple.svg)](https://react-redux.js.org/) React Redux is the official Redux library for integrating Redux with React applications. It simplifies the process of connecting Redux to your React components and managing the state.
+- **Redux Toolkit**: [![library: Redux Toolkit](https://img.shields.io/badge/library-%F0%9F%8C%8F%20Redux%20Toolkit-purple.svg)](https://redux-toolkit.js.org/) Redux Toolkit is an opinionated set of utilities for Redux that simplifies common Redux tasks and helps you write more efficient and maintainable Redux code. It includes features like a standardized way to define slices of state and middleware setup.
+- **redux-saga**: [![library: redux-saga](https://img.shields.io/badge/library-%F0%9F%8E%AF%20redux--saga-blue.svg)](https://github.com/redux-saga/redux-saga) Redux Saga is a middleware library for managing asynchronous actions in Redux. It simplifies handling side effects like API calls using generators to create structured and testable asynchronous flows.
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:
