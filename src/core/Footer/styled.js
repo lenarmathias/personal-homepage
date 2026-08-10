@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { ReactComponent as GitHubIcon } from "../../images/icons/githubIcon.svg";
-import { ReactComponent as LinkedInIcon } from "../../images/icons/linkedinIcon.svg";
 
 export const FooterContainer = styled.div`
     width: 691px;
@@ -29,27 +28,6 @@ export const IconsContainer = styled.div`
 `;
 
 export const GitHubIconLink = styled(GitHubIcon)`
-    width: 48px;
-    height: 48px;
-
-    path {
-        fill: ${({ theme }) => theme.colors.secondaryTextColor};
-        transition: fill 0.5s;
-    }
-
-    &:hover {
-        path {
-            fill: ${({ theme }) => theme.colors.primaryBlue};
-        }
-    }
-
-    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
-        width: 32px;
-        height: 32px;
-    }
-`;
-
-export const LinkedInIconLink = styled(LinkedInIcon)`
     width: 48px;
     height: 48px;
 

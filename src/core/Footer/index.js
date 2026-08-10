@@ -1,8 +1,7 @@
 import {
     FooterContainer,
     IconsContainer,
-    GitHubIconLink,
-    LinkedInIconLink
+    GitHubIconLink
 } from "./styled";
 import { SmallBoldText, ListText } from "../../common/textStyles/styled";
 import { BigLinkAddress } from "../../common/linkStyles/styled";
@@ -32,11 +31,6 @@ const Footer = () => (
                 href="https://github.com/lenarmathias"
             >
                 <GitHubIconLink />
-            </a>
-            <a
-                href="https://www.linkedin.com/in/maciej-lenartowicz-969623292/"
-            >
-                <LinkedInIconLink />
             </a>
         </IconsContainer>
     </FooterContainer>
