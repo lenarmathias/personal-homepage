@@ -1,9 +1,10 @@
 import ThemeSwitchButton from "./features/theme/ThemeSwitchButton";
 import AboutMe from "./core/AboutMe";
 import Section from "./common/Section";
-import SkillList from "./features/SkillList"
+import SkillList from "./features/SkillList";
 import Portfolio from "./features/Portfolio";
-import Footer from "./core/Footer"
+import Footer from "./core/Footer";
+import ToTopButton from "./common/ToTopButton";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       />
       <Portfolio />
       <Footer />
+      <ToTopButton />
     </>
   );
 }
