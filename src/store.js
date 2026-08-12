@@ -6,10 +6,10 @@ import { themeSaga } from "./features/theme/themeSaga";
 const sagaMiddleware = createSagaMiddleware();
 
 const store = configureStore({
-    reducer: {
-        theme: themeReducer,
-    },
-    middleware: [sagaMiddleware],
+  reducer: {
+    theme: themeReducer,
+  },
+  middleware: [sagaMiddleware],
 });
 
 sagaMiddleware.run(themeSaga);

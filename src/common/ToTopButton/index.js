@@ -15,7 +15,7 @@ const ToTopButton = () => {
       onClick={scrollToTop}
       $visibility={isHidden}
     >
-     <ToTopIcon />
+      <ToTopIcon />
     </RoundButtonFrame>
   )
 };
