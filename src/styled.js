@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
   }
     
   body {
-    margin: 119px auto 109px !important;
+    margin: 99px auto 119px;
     width: 1216px;
     max-width: 90%;
     font-family: 'Inter', sans-serif;
@@ -19,7 +19,7 @@ export const GlobalStyle = createGlobalStyle`
     position: relative;
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
-      margin: 21px 17px;
+      margin: 21px auto 121px;  // previously width 17px
     }
   }
 

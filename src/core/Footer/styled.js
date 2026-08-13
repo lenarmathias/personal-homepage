@@ -2,12 +2,10 @@ import styled from "styled-components";
 import { ReactComponent as GitHubIcon } from "../../images/icons/githubIcon.svg";
 
 export const FooterContainer = styled.div`
-  width: 691px;
   height: 282px;
   margin-top: 120px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
-    width: 288px;
     height: 236px;
     margin-top: 48px;
   }
