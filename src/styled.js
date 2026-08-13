@@ -23,7 +23,7 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
 
-  a {
+  a, button {
     -webkit-tap-highlight-color: transparent;
   }
 `;
