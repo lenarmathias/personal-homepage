@@ -19,11 +19,12 @@ export const GlobalStyle = createGlobalStyle`
     position: relative;
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
-      margin: 21px auto 121px;  // previously width 17px
+      margin: 21px auto 121px;
     }
   }
 
   a, button {
     -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
   }
 `;

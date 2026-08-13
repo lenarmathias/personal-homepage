@@ -56,7 +56,6 @@ export const BigLinkAddress = styled.a`
   font-style: normal;
   font-weight: 900;
   letter-spacing: 1.6px;
-  text-decoration: none;
   transition: 0.5s;
 
   &:hover {

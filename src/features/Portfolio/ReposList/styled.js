@@ -62,7 +62,6 @@ export const RepoLinksWrapper = styled.div`
 
 export const RepoLink = styled.a`
   color: ${({ theme }) => theme.colors.primaryBlue};
-  text-decoration: none;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;

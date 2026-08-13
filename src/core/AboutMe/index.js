@@ -15,7 +15,7 @@ const AboutMe = () => (
       <PrimaryText>
         👨🏻‍💻 I'm a passionate Frontend Developer in love with React, currently looking for new job opportunities.
       </PrimaryText>
-      <LinkButton>
+      <LinkButton href="mailto:lenarmathias@gmail.com" >
         <StyledMailIcon />
         <LinkButtonText>
           Hire Me
