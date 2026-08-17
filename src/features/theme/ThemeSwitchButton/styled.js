@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
-import { ReactComponent as SwitchFrame } from "./svgElements/switchFrame.svg";
-import { ReactComponent as SwitchToggle } from "./svgElements/switchToggle.svg";
-import { ReactComponent as ThemeIcon } from "./svgElements/themeIcon.svg";
+import SwitchFrame from "./svgElements/switchFrame.svg?react";
+import SwitchToggle from "./svgElements/switchToggle.svg?react";
+import ThemeIcon from "./svgElements/themeIcon.svg?react";
 
 export const ThemeSwitchButtonWrapper = styled.div`
   width: 160px;

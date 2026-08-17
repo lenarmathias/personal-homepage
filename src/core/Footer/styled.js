@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as GitHubIcon } from "../../images/icons/githubIcon.svg";
+import GitHubIcon from "../../images/icons/githubIcon.svg?react";
 
 export const FooterContainer = styled.div`
   height: 282px;

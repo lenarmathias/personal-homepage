@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as MailIcon } from "../../images/icons/message.svg";
+import MailIcon from "../../images/icons/message.svg?react";
 
 const linkButtonShadow = ({ theme }) => theme.colors.blueHoverAndFocus;
 
