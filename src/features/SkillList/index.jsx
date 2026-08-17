@@ -3,14 +3,14 @@ import { List, ListItem } from "./styled";
 import { ListText } from "../../common/textStyles/styled";
 
 const SkillList = ({ toLearn }) => {
-  const { mySkillset, wantToLearn } = useSkillList();
+  const { mySkillSet, wantToLearn } = useSkillList();
 
   return (
     <List>
       {(
         toLearn
           ? wantToLearn
-          : mySkillset
+          : mySkillSet
       ).map(skill => (
         <ListItem key={skill.id}>
           <ListText>

@@ -12,7 +12,7 @@ function App() {
       <ThemeSwitchButton />
       <AboutMe />
       <Section
-        title="My skillset includes"
+        title="My skill set includes"
         content={<SkillList />}
         className="first"
       />
